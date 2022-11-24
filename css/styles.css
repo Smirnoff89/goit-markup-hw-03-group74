@@ -28,6 +28,12 @@ button {
     cursor: pointer;
 }
 
+.container {
+    width: 1200px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+
 body {
     font-family: Roboto, sans-serif;
     background-color: var(--primary-white-color);
@@ -37,11 +43,7 @@ body {
     line-height: 1.71;
     }
 
-.container {
-    width: 1200px;
-    padding: 0px 15px;
-    margin: 0px auto;
-}
+
 
 /*--------HEADER--------*/
 
@@ -130,7 +132,9 @@ span.web {
 
 .hero {
     background-color: var(--primary-bg-color);
-
+    width: 1200px;
+    padding: 0px 15px;
+    margin: 0px auto;
 }
 
 .hero-title {
@@ -141,6 +145,8 @@ span.web {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--primary-white-color);
+    display: flex;
+    padding: 200px 452px 280px 452px;
 }
 
 .hero-btn {
