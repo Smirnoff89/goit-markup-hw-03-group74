@@ -45,8 +45,13 @@ body {
 
 /*--------HEADER--------*/
 
-header {
-    
+.header {
+}
+
+
+
+header .container {
+    display: flex;
 }
 
 .header-logo {
@@ -57,16 +62,24 @@ header {
     color: var(--primary-text-color);
     padding: 24px 0px;
     display: block;
+    margin-right: 93px;
 }
 
 span.web {
     color: var(--accent-color);
 }
 
-.header-link {
+
+.header-list {
     font-weight: 500;
     line-height: 1.14;
     color: var(--primary-text-color);
+    display: flex;
+    padding: 17px 0px;
+}
+
+.header-list>li:not(:last-child) {
+    margin-right: 50px;
 }
 
 .header-link:hover,
@@ -76,6 +89,16 @@ span.web {
 
 .header-current-link {
     color: var(--accent-color);
+}
+
+.header-contacts {
+    display: flex;
+    padding: 17px 0px;
+    margin-left: 344px;
+}
+
+.header-contacts>li:not(:last-child) {
+    margin-right: 50px;
 }
 
 .header-mail {
@@ -107,6 +130,7 @@ span.web {
 
 .hero {
     background-color: var(--primary-bg-color);
+
 }
 
 .hero-title {
