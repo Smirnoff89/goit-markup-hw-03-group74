@@ -9,6 +9,24 @@
     --secondary-bg-color: #188CE8;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+ul, ol {
+    margin: 0px;
+    padding-left: 0px;
+}
+
+button {
+    cursor: pointer;
+}
 
 body {
     font-family: Roboto, sans-serif;
@@ -18,6 +36,12 @@ body {
     letter-spacing: 0.03em;
     line-height: 1.71;
     }
+
+.container {
+    width: 1200px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
 
 /*--------HEADER--------*/
 
@@ -31,6 +55,8 @@ header {
     font-size: 26px;
     line-height: 1.19;
     color: var(--primary-text-color);
+    padding: 24px 0px;
+    display: block;
 }
 
 span.web {
