@@ -203,10 +203,30 @@ ul {
     list-style: none;
 }
 
+.items .container {
+    display: flex;
+    padding: 94px 15px 118px 15px;
+}
+
+.items-list {
+    display: flex;
+}
+
+.items-item {
+    display: block;
+    min-width: 270px;
+    align-items: center;
+}
+
+.items-item>li:not(:last-child) {
+    margin-right: 30px;
+}
+
 .items-pre-title {
     font-weight: 700;
     text-transform: uppercase;
     color: var(--primary-text-color);
+    margin-bottom: 10px;
 }
 
 .items-text {
