@@ -47,13 +47,9 @@ body {
 
 /*--------HEADER--------*/
 
-.header {
-}
-
-
-
 header .container {
     display: flex;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header-logo {
@@ -70,7 +66,6 @@ header .container {
 span.web {
     color: var(--accent-color);
 }
-
 
 .header-list {
     font-weight: 500;
@@ -127,15 +122,10 @@ span.web {
     color: var(--accent-color);
 }
 
-
 /*--------MAIN-HERO--------*/
 
 .hero {
     background-color: var(--primary-bg-color);
-}
-
-.hero .container {
-
 }
 
 .hero-title {
@@ -151,8 +141,7 @@ span.web {
     padding-top: 200px;
     width: 696px;
     margin-left: 237px;
-    margin-right: 237px;
-    
+    margin-right: 237px;    
 }
 
 .hero-btn {
@@ -257,10 +246,6 @@ ul {
     background-color: var(--button-color);
 }
 
-.team .container {
-
-}
-
 .team-title {
     font-weight: 700;
     font-size: 36px;
@@ -310,6 +295,53 @@ ul {
     color: var(--primary-white-color);
 }
 
+.portfolio .container {
+    display: block;
+    padding: 94px 15px;
+}
+
+.portfolio-list {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.portfolio-list>li:not(:last-child) {
+    margin-right: 8px;
+}
+
+.portfolio-cases {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.span-one {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.span-one>li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.span-two {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.span-two>li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.span-three {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.span-three>li:not(:last-child) {
+    margin-right: 30px;
+}
+
 .portfolio-btn {
     font-family: inherit;
     font-weight: 500;
@@ -319,6 +351,7 @@ ul {
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     background-color: var(--button-color);
+    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -334,6 +367,8 @@ ul {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
+    margin-top: 20px;
+    margin-left: 24px;
 }
 
 .portfolio-item-after-title {
@@ -341,6 +376,14 @@ ul {
     font-size: 16px;
     line-height: 1.88;
     color: var(--title-text-color);
+    margin-top: 4px;
+    margin-left: 24px;
+    padding-bottom: 20px;
+}
+
+.portfolio-item-list {
+    background-color: #FFFFFF;
+    border: 1px solid #EEEEEE;
 }
 
 /*--------FOOTER--------*/
