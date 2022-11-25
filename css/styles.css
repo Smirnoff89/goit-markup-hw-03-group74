@@ -349,20 +349,16 @@ ul {
     background: var(--primary-bg-color);
 }
 
-.contacts-items {
-    font-style: normal;
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.contacts-items:hover,
-.contacts-items:focus {
-    color: var(--primary-white-color);
+.contacts .container {
+    display: block;
 }
 
 .contacts-logo {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.19;
+    display: flex;
+    padding-top: 60px;
 }
 
 span.web {
@@ -372,3 +368,24 @@ span.web {
 span.studio {
     color: var(--primary-white-color);
 }
+
+.footer-address {
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 60px;
+}
+
+.contacts-items {
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-list>li:not(:first-child) {
+    margin-top: 9px;
+}
+
+.contacts-items:hover,
+.contacts-items:focus {
+    color: var(--primary-white-color);
+}
+
