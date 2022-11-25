@@ -136,7 +136,6 @@ span.web {
 
 .hero .container {
 
-       
 }
 
 .hero-title {
@@ -170,8 +169,7 @@ span.web {
     height: 50px;
     border-radius: 4px;
     margin-bottom: 200px;
-    margin-left: 483px;
-    margin-right: 483px;
+    margin-left: 474px;
 }
 
 .hero-btn:hover,
@@ -212,14 +210,14 @@ ul {
     display: flex;
 }
 
+.items-list>li:not(:last-child) {
+    margin-right: 30px;
+}
+
 .items-item {
     display: block;
     min-width: 270px;
     align-items: center;
-}
-
-.items-item>li:not(:last-child) {
-    margin-right: 30px;
 }
 
 .items-pre-title {
@@ -241,6 +239,16 @@ ul {
     line-height: 1.17;
     text-align: center;
     color: var(--primary-text-color);
+    margin-bottom: 50px;
+}
+
+.our-work-list {
+    display: flex;
+    margin-bottom: 94px;
+}
+
+.our-work-list>li:not(:last-child) {
+    margin-right: 30px;
 }
 
 /*--------MAIN-TEAM--------*/
@@ -249,25 +257,51 @@ ul {
     background-color: var(--button-color);
 }
 
+.team .container {
+
+}
+
 .team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     color: var(--primary-text-color);
+    margin-bottom: 50px;
+    padding-top: 94px;
+}
+
+.team-list {
+    display: flex;
+    padding-bottom: 94px;
+}
+
+.team-list>li:not(:last-child) {
+    margin-right: 30px;
 }
 
 .team-pre-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
+    text-align: center;
     color: var(--primary-text-color);
+    margin-top: 30px;
 }
 
 .team-text {
     font-size: 16px;
     line-height: 1.19;
+    text-align: center;
     color: var(--title-text-color);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.team-item {
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 /*--------PORTFOLIO--------*/
