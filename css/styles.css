@@ -142,8 +142,7 @@ span.web {
 }
 
 .hero .container {
-    display: block;
-    padding: 200px 252px;
+    padding: 200px 252px; 
 }
 
 .hero-title {
@@ -154,7 +153,6 @@ span.web {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--primary-white-color);
-    display: flex;
     margin-bottom: 30px;
 }
 
@@ -185,6 +183,11 @@ span.web {
 
 /*--------MAIN-ITEMS--------*/
 
+.items .container {
+    display: flex;
+    padding: 94px 15px 118px 15px;
+}
+
 .invisible-title {
     position: absolute;
     width: 1px;
@@ -206,11 +209,6 @@ ul {
     list-style: none;
 }
 
-.items .container {
-    display: flex;
-    padding: 94px 15px 118px 15px;
-}
-
 .items-list {
     display: flex;
 }
@@ -220,7 +218,6 @@ ul {
 }
 
 .items-item {
-    display: block;
     min-width: 270px;
     align-items: center;
 }
