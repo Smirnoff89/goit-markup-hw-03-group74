@@ -407,20 +407,22 @@ ul {
 
 /*--------FOOTER--------*/
 
-.contacts {
+footer {
     background: var(--primary-bg-color);
+    padding: 0px 15px;
+    height: 252px;
+    display: flex;
+    align-items: center;
 }
 
-.contacts .container {
-    display: block;
+footer .container {
+
 }
 
-.contacts-logo {
+.footer-logo {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.19;
-    display: flex;
-    padding-top: 60px;
 }
 
 span.web {
@@ -434,7 +436,6 @@ span.studio {
 .footer-address {
     display: flex;
     margin-top: 20px;
-    padding-bottom: 60px;
 }
 
 .contacts-items {
