@@ -139,7 +139,7 @@ span.web {
 
 .hero {
     background-color: var(--primary-bg-color);
-    height: 600px;
+    padding: 200px 0px;
     display: flex;
     align-items: center;
 }
@@ -302,13 +302,13 @@ ul {
 /*--------PORTFOLIO--------*/
 
 .portfolio {
-    padding: 94px 15px;
+    padding: 94px 0px;
 }
 
 .portfolio-list {
     display: flex;
-    margin-bottom: 50px;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .portfolio-list>li:not(:last-child) {
@@ -318,15 +318,23 @@ ul {
 .portfolio-cases {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    margin-left: calc(-1 * 30px);
+    margin-top: calc(-1 * 30px);
 }
 
-.portfolio-item-list {
-    flex-basis: calc((100% - 60px) / 3);
+.portfolio-cases > .portfolio-item-list {
+    flex-basis: calc(100% / 3 - 30px);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.card {
     background: var(--primary-white-color);
     border: 1px solid var(--border-color-two);
-    display: block;
-    text-indent: 24px;
+}
+
+.card-content {
+    padding: 20px 24px;
 }
 
 .portfolio-btn {
@@ -340,12 +348,14 @@ ul {
     background-color: var(--button-color);
     border-radius: 4px;
     border: none;
+    padding: 6px 22px;
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-item-title {
@@ -354,8 +364,6 @@ ul {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
-    margin-top: 20px;
-    margin-bottom: 4px;
 }
 
 .portfolio-item-after-title {
@@ -363,7 +371,7 @@ ul {
     font-size: 16px;
     line-height: 1.88;
     color: var(--title-text-color);
-    margin-bottom: 20px;
+    margin-top: 4px;
 }
 
 /*--------FOOTER--------*/
