@@ -184,10 +184,6 @@ span.web {
     padding: 94px 0px;
 }
 
-.items .container {
-    display: flex;
-}
-
 .invisible-title {
     position: absolute;
     width: 1px;
@@ -218,7 +214,7 @@ ul {
 }
 
 .items-item {
-    min-width: 270px;
+    width: 100%;
 }
 
 .items-pre-title {
@@ -235,7 +231,7 @@ ul {
 /*--------MAIN-OUR-WORK--------*/
 
 .our-work {
-    padding: 0px 15px 94px;
+    padding-bottom: 94px;
 }
 
 .our-work-title {
@@ -259,7 +255,7 @@ ul {
 
 .team {
     background-color: var(--button-color);
-    padding: 94px 15px;
+    padding: 94px 0px;
 }
 
 .team-title {
@@ -374,10 +370,7 @@ ul {
 
 footer {
     background: var(--primary-bg-color);
-    padding: 0px 15px;
-    height: 252px;
-    display: flex;
-    align-items: center;
+    padding: 60px 0px;
 }
 
 .footer-logo {
@@ -395,7 +388,6 @@ span.studio {
 }
 
 .footer-address {
-    display: flex;
     margin-top: 20px;
 }
 
@@ -404,7 +396,7 @@ span.studio {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.contacts-list>li:not(:first-child) {
+.footer-address>li:not(:first-child) {
     margin-top: 9px;
 }
 
